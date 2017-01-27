@@ -1,4 +1,4 @@
-function loopbackModelConfigAddMixinPath(filename, path) {
+function loopbackTimestampMixin(filename, path) {
   let fs = require('fs');
   let json = JSON.parse(fs.readFileSync(filename));
   if(json._meta.mixins.indexOf(path) == -1) {
@@ -7,5 +7,5 @@ function loopbackModelConfigAddMixinPath(filename, path) {
   fs.writeFile(filename, JSON.stringify(json, null, 2));
 }
 
-loopbackModelConfigAddMixinPath('../../server/model-config.json', '../node_modules/loopback-ds-timestamp-mixin');
+loopbackTimestampMixin('../../server/model-config.json', '../node_modules/loopback-ds-timestamp-mixin');
 
