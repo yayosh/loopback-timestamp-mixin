@@ -1,0 +1,19 @@
+{
+  "name": "loopback-timestamp-mixin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yayosh/loopback-timestamp-mixin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "loopback-ds-timestamp-mixin": "^3.4.0"
+  }
+}
