@@ -13,7 +13,10 @@
   },
   "author": "",
   "license": "ISC",
-  "peerDependencies": {
+  "dependencies": {
     "loopback-ds-timestamp-mixin": "^2.1.1"
+  },
+  "peerDependencies": {
+    "loopback-datasource-juggler": "^2.39.0"
   }
 }
