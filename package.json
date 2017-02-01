@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "loopback-ds-timestamp-mixin": "^2.1.1"
+    "loopback-ds-timestamp-mixin": "^3.4.0"
   },
   "peerDependencies": {
     "loopback-datasource-juggler": "^2.39.0"
